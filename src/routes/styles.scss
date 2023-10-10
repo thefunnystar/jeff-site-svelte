@@ -1,0 +1,41 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+$color-purple: #9747FF;
+//$color-red: #F00; //75%
+$color-red: rgba(255, 0, 0, 0.75);
+$color-orange: #F8712D;
+$color-skin: #FEF3C7;
+$color-yellow: #F5CF0D;
+$color-gold: #EAB308;
+$color-brown: #A16207;
+
+$color-blue: #00F;
+$color-light-blue: #3B82F6;
+
+$color-greyish: #F5F5F5;
+$color-light-greyish: #E7E5E4;
+$color-mid-greyish: #78716C;
+
+$color-light-grey: #D9D9D9;
+$color-mid-grey: #AAA;
+
+$color-border: #e5e7eb;
+$color-checkout: #F8FAFC;
+$color-line: #ccc;
+$color-background: #F9FAFB;
+
+$color-white: #fff;
+$color-black: #000;
